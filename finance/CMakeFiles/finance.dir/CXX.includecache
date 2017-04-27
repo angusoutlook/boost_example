@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/workspace/boost_test/finance/helper.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+strategy.h
+/home/workspace/boost_test/finance/strategy.h
+
+/home/workspace/boost_test/finance/main.cpp
+strategy.h
+/home/workspace/boost_test/finance/strategy.h
+helper.h
+/home/workspace/boost_test/finance/helper.h
+boost/timer/timer.hpp
+-
+iostream
+-
+
+/home/workspace/boost_test/finance/strategy.h
+vector
+-
+map
+-
+
